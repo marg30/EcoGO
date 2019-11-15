@@ -1,0 +1,28 @@
+SMAP
+mapa_jsp.java
+JSP
+*S JSP
+*F
++ 0 mapa.jsp
+mapa.jsp
++ 1 head.jsp
+head.jsp
++ 2 header.jsp
+header.jsp
++ 3 modalRegistro.jsp
+modalRegistro.jsp
++ 4 javascript.jsp
+javascript.jsp
+*L
+5,9:54
+1#1,13:63
+13#0,7:75
+1#2,87:82
+19#0,2:168
+1#3,91:170
+20#0,10:261
+29,4:271
+32,92:275
+1#4,4:367
+123#0,13:370
+*E
