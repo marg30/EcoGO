@@ -1,0 +1,246 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.prueba:hover{
+	color: blue;
+}
+#logo{
+	width: 100px;
+}
+
+.nav-link{
+	color: #71C227;
+}
+
+.btn-link{
+	color: #39D12DFF;
+	align-self: center!important;
+}
+.btn-link:hover{
+	color: #06df37;
+}
+
+.card-header, .select{
+	text-align: center;
+}
+
+
+#iniciar-sesion{
+	font-size: 10px;
+	position: absolute;
+	top: 58px;
+	right: 10px;
+}
+
+.sabias-que{
+	font-size: 20px;
+}
+
+#aprender-mas{
+	transition: all 0.5s;
+	cursor: pointer;
+	box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+#aprender-mas{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+#aprender-mas:hover{
+	padding-right: 24px;
+	padding-left:8px;
+}
+#aprender-mas:after {
+	content: ">";
+	size: 50px;
+	position: absolute;
+	opacity: 0;  
+	transition: 0.5s;
+}
+
+#aprender-mas:hover:after {
+	opacity: 1;
+	right: 10px;
+}
+
+
+.info-cuadro{
+	border: 2px solid #499300;
+	border-radius: 30px;
+	padding: 10px;
+	background: #b6fcc5;
+}
+
+.mas-info-tarjetas{
+	transition: 0.2s;
+        color:black;
+}
+
+.mas-info-tarjetas:hover{
+	color: green;
+	font-weight: bold;
+}
+.formulario-inicio-sesion{
+	position: absolute;
+	top: 20px;
+	right: 300px;
+}
+
+#barra-mails{
+	height: 100vh;
+	background-color: #06df37;
+}
+
+.boton-tip{
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid green;
+	padding: 5px;
+	width: 200px;
+}
+
+.boton-tip:hover{
+	color: #2AE048;
+	text-decoration: underline;
+}
+
+.consejos{
+	height: 50vh;
+	border-radius: 30px;
+	border: 2px solid green;
+	background-color: white;
+	justify-content: center;
+	background-color:white;
+	font-size: 30px;
+}
+
+.carousel-item {
+
+}
+.carousel-control-next, .carousel-control-prev {
+	background-color: green;
+	width: 5%!important;
+}
+
+.carousel-control-next{
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.carousel-control-prev{
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px
+}
+
+.list-group-item.active{
+	border: initial;
+}
+
+.list-group-item:hover{
+	transition: 0.9s;
+}
+
+#res-plastico.active, #res-plastico:hover{
+	background-color: #0265FCFF;
+}
+
+#res-telgopor.active, #res-telgopor:hover {
+	background-color: #99ff99;
+	color: black;
+}
+
+#res-tetrabrik.active, #res-tetrabrik:hover{
+	background-color: #ffcc66;
+}
+
+#res-carton-papel:hover {
+	background-color: rgba(194, 142, 60, 0.6);
+}
+#res-carton-papel.active {
+	background-color: rgba(194, 142, 60);
+}
+#res-metales.active, #res-metales:hover{
+	background-color: rgba(186, 192, 196,0.5);
+}
+
+#res-pilas.active, #res-pilas:hover{
+	background-color: rgba(255, 255, 102,0.9);
+}
+#res-vidrio.active, #res-vidrio:hover{
+	background-color: rgb(204, 255, 255);
+}
+
+#res-tapitas.active, #res-tapitas:hover{
+	background-color: rgba(255,66,0,0.5);
+}
+
+#res-electronicos.active, #res-electronicos:hover{
+	background-color: rgba(255,119,220,1);
+}
+
+#res-aceite.active, #res-aceite:hover{
+	background: #c1c413;
+} 
+
+
+.card-body{
+	padding: initial;
+}
+#usuario-imagen{
+	max-width: 100%;
+}
+.lista-residuos{
+	z-index: 1;
+	background-color: white;
+	position: relative;
+}
+.busqueda{
+	display: none!important;
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+.marker {
+	background-image: url('../images/pin-amarillo.png');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.mapboxgl-popup {
+	max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pop-up{
+	font-size: 16px;
+}
+
+@media  only screen and (max-width: 768px){
+	.info-cuadro{
+		margin-right: initial!important;
+	}
+	#info{
+		margin: 1rem!important;
+		margin-top: 2rem!important;
+	}
+	#login{
+		display: none;
+	}
+}
